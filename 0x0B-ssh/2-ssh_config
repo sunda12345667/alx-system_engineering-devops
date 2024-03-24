@@ -1,0 +1,9 @@
+# SSH Config File
+#
+Host web-01
+	SendEnv LANF LC_*
+	HashKnownHosts yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials no
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
