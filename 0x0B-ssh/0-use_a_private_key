@@ -1,1 +1,4 @@
-ssh -i ~/.ssh/school  ubuntu@100.25.160.41
+#!/usr/bin/enb bash
+#using ssh to connect to a server
+
+ssh ubuntu -i ~/.ssh/school
